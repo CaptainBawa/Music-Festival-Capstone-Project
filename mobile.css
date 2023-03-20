@@ -269,7 +269,8 @@ margin-top: 10%;
 h2 {
   color: #000;
   text-align: center;
-  padding: 8%;
+  padding: 10% 1%;
+  font-size: 1.30em;
 }
 
 .about-divider {
@@ -325,6 +326,47 @@ h2,
 .two {
   background-image: url("./img/young-couple.jpg");
 }
-
 /* About main Styles Ends Here */
 /* Main Section Styles Starts Here */
+/* Footer Styles Starts Here */
+.footer-container {
+  width: 100%;
+  height: auto;
+  background-color: #272A31;
+}
+
+.footer-container
+h2 {
+  color: #fff;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.flex-imgs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  padding: 2%;
+}
+
+.copywrite {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.copywrite
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.copywrite
+p {
+  text-align: center;
+  width: 50%;
+}
+/* Footer Styles Ends Here */
