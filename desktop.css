@@ -1,22 +1,23 @@
-@media only screen and (min-width:768px) {
-    /* NavBar Styles Starts Here */
-    .top-nav {
-        display: flex;
-        flex-direction: row-reverse;
-        align-items: center;
-        gap: 2%;
-        width: 100%;
-        height: auto;
-        padding-right: 20%;
-        background-color: #272A31;
-      }
-      
-      .top-nav li {
-        color: #fff;
-      }
-      
-      img {
-        background-color: #fff;
-      }
-      /* NavBar Styles Ends Here */
+@media only screen and (min-width: 768px) {
+  /* NavBar Styles Starts Here */
+  .top-nav {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+    height: auto;
+    padding-right: 20%;
+    background-color: #272a31;
+  }
+
+  .top-nav li {
+    color: #fff;
+  }
+
+  img {
+    background-color: #fff;
+  }
+
+  /* NavBar Styles Ends Here */
 }
