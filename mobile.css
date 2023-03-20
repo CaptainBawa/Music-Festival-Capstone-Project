@@ -87,3 +87,157 @@ h2 {
   font-weight: 300;
 }
 /* NavBar and Hero Styles Ends Here */
+
+/* Main Section Styles Starts Here */
+.programs-container {
+  background-image: url("./img/pattern_bg.png");
+  background-size: 10%;
+  background-color: #272A31;
+  width: 100%;
+  height: auto;
+}
+
+.programs-container
+h2 {
+  color: #fff;
+  font-size: 1.75em;
+  font-weight: 700;
+  text-align: center;
+  padding: 10% 2% 0 0;
+}
+
+hr {
+  width: 20%;
+  height: 1px;
+  border: none;
+  margin: 0 auto;
+  background-color: #EC5242;
+}
+
+.program {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  border: 3px solid #373a41;
+  width: 95%;
+  height: 10%;
+  margin: 0 auto 3% auto;
+  padding: 2%;
+}
+
+.space-top {
+  margin-top: 10%;
+}
+
+.program
+img {
+  width: 20%;
+  height: 20%;
+}
+
+.program
+h3 {
+  color: #EC5242;
+}
+
+.program
+p {
+  color: #fff;
+  font-size: 0.90em;
+  width: 100%;
+}
+
+.join {
+  background-color: #EC5242;
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  padding: 10% 0;
+}
+
+.join
+h4 {
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 900;
+  text-align: center;
+}
+
+/* Featured Musicians Styles Starts Here */
+.musicians-container 
+h2{
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 1.75em;;
+  font-weight: 700;
+  padding-top: 10%;
+}
+
+.musicians {
+  display: flex;
+  gap: 15px;
+  width: 100%;
+  height: auto;
+  padding: 5%;
+  margin: 8% auto 4% auto;
+  /* border: 2px solid red; */
+}
+
+.musicians
+img {
+  width: 40%;
+  height: 40%;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.profile-container
+h3 {
+  font-size: 1.75em;;
+  font-weight: 700;
+}
+
+.profile-divider {
+  width: 20%;
+  height: 1px;
+  border: none;
+  background-color: #7e7e7e;
+  margin: 0;
+}
+
+.profile-sub-header {
+  color: #EC5242;
+  font-size: 1.1em;
+  font-weight: 600
+}
+
+.profile-container
+p {
+  font-size: 1.1em;
+  font-weight: 600
+}
+
+.hidden {
+  display: none;
+}
+
+.more {
+  border: 2px solid #7e7e7e;
+  width: 95%;
+  height: 30%;
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.more
+h4 {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: center;
+}
+/* Featured Musicians Styles Ends Here */
+/* Main Section Styles Starts Here */
