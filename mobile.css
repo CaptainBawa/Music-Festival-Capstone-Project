@@ -11,6 +11,7 @@ body {
   font-family: lato, sans-serif;
   font-style: normal;
 }
+
 /* NavBar and Hero Styles Starts Here */
 header {
   background-image: url("./img/main_big.png");
@@ -45,9 +46,12 @@ header {
   padding: 2%;
 }
 
-.top-nav
-li
 a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.top-nav li a {
   font-size: 1em;
   font-weight: 600;
 }
@@ -62,28 +66,20 @@ a {
   padding-bottom: 5%;
 }
 
-.down-bar
 li {
+  list-style: none;
+}
+
+.down-bar li {
   padding-left: 30%;
   border-bottom: 1px solid #d3d3d3;
   padding-bottom: 5%;
 }
 
-.down-bar
-li
-a {
+.down-bar li a {
   font-size: 2em;
   font-weight: 700;
   padding-bottom: 2%;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .ham-close {
@@ -94,7 +90,7 @@ a {
 }
 
 .hamburger {
-padding: 3% 6%;
+  padding: 3% 6%;
 }
 
 .bar {
@@ -102,7 +98,7 @@ padding: 3% 6%;
   width: 40px;
   height: 7px;
   margin-top: 5px;
-  background-color: #d3d3d3;
+  background-color: #5e5c5c;
 }
 
 .hero-container {
@@ -113,27 +109,23 @@ padding: 3% 6%;
   padding: 5%;
 }
 
-.hero-container
-h6 {
+.hero-container h6 {
   font-size: 1.25em;
   font-weight: 500;
 }
 
-.hero-container
+.hero-container h6,
 h1 {
+  color: #ec5242;
+}
+
+.hero-container h1 {
   font-size: 1.7em;
   font-weight: 900;
   line-height: 1.2em;
 }
 
-.hero-container
-h6,
-h1 {
-  color: #EC5242;
-}
-
-.hero-container
-p {
+.hero-container p {
   font-size: 1em;
   font-weight: 700;
   line-height: 1.3em;
@@ -141,8 +133,7 @@ p {
   padding: 4%;
 }
 
-.hero-container
-p,
+.hero-container p,
 h2 {
   color: #7e7e7e;
 }
@@ -155,20 +146,20 @@ h2 {
   font-size: 1.25em;
   font-weight: 300;
 }
+
 /* NavBar and Hero Styles Ends Here */
 
 /* Main Section Styles Starts Here */
 .programs-container {
   background-image: url("./img/pattern_bg.png");
   background-size: 10%;
-  background-color: #272A31;
+  background-color: #272a31;
   width: 100%;
   height: auto;
   padding-bottom: 5%;
 }
 
-.programs-container
-h2 {
+.programs-container h2 {
   color: #fff;
   font-size: 1.75em;
   font-weight: 700;
@@ -181,7 +172,7 @@ hr {
   height: 1px;
   border: none;
   margin: 0 auto;
-  background-color: #EC5242;
+  background-color: #ec5242;
 }
 
 .program {
@@ -199,34 +190,30 @@ hr {
   margin-top: 10%;
 }
 
-.program
-img {
+.program img {
   width: 20%;
   height: 20%;
 }
 
-.program
-h3 {
-  color: #EC5242;
+.program h3 {
+  color: #ec5242;
 }
 
-.program
-p {
+.program p {
   color: #fff;
-  font-size: 0.90em;
+  font-size: 0.9em;
   width: 100%;
 }
 
 .join {
-  background-color: #EC5242;
+  background-color: #ec5242;
   width: 80%;
   height: auto;
   margin: 0 auto;
   padding: 10% 0;
 }
 
-.join
-h4 {
+.join h4 {
   color: #fff;
   font-size: 1.2em;
   font-weight: 900;
@@ -234,11 +221,10 @@ h4 {
 }
 
 /* Featured Musicians Styles Starts Here */
-.musicians-container 
-h2{
+.musicians-container h2 {
   color: rgb(0, 0, 0);
   text-align: center;
-  font-size: 1.75em;;
+  font-size: 1.75em;
   font-weight: 700;
   padding-top: 10%;
 }
@@ -250,11 +236,11 @@ h2{
   height: auto;
   padding: 5%;
   margin: 8% auto 4% auto;
+
   /* border: 2px solid red; */
 }
 
-.musicians
-img {
+.musicians img {
   width: 40%;
   height: 40%;
 }
@@ -265,9 +251,8 @@ img {
   gap: 8px;
 }
 
-.profile-container
-h3 {
-  font-size: 1.75em;;
+.profile-container h3 {
+  font-size: 1.75em;
   font-weight: 700;
 }
 
@@ -280,15 +265,14 @@ h3 {
 }
 
 .profile-sub-header {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 1.1em;
-  font-weight: 600
+  font-weight: 600;
 }
 
-.profile-container
-p {
+.profile-container p {
   font-size: 1.1em;
-  font-weight: 600
+  font-weight: 600;
 }
 
 .hidden {
@@ -303,22 +287,22 @@ p {
   padding: 5%;
 }
 
-.more
-h4 {
+.more h4 {
   font-size: 1.3em;
   font-weight: 500;
   text-align: center;
 }
+
 /* Featured Musicians Styles Ends Here */
+
 /* About Hero Styles Starts Here */
-.about-section
-h6 {
+.about-section h6 {
   text-align: center;
 }
 
 .about-info {
-background-color: #fff;
-margin-top: 10%;
+  background-color: #fff;
+  margin-top: 10%;
 }
 
 #about-enquiry,
@@ -333,22 +317,22 @@ margin-top: 10%;
   margin-top: -4%;
   color: #000;
 }
+
 /* About Hero Styles Ends Here */
+
 /* About main Styles Starts Here */
-.about-main-container
-h2 {
+.about-main-container h2 {
   color: #000;
   text-align: center;
   padding: 10% 1%;
-  font-size: 1.30em;
+  font-size: 1.3em;
 }
 
 .about-divider {
   margin-top: -5%;
 }
 
-.about-main-container
-p {
+.about-main-container p {
   color: #7e7e7e;
   text-align: center;
   padding-top: 3%;
@@ -363,8 +347,7 @@ p {
   margin: 15% auto;
 }
 
-.logo-container
-img {
+.logo-container img {
   width: 60%;
   height: 60%;
 }
@@ -386,8 +369,7 @@ img {
   margin: 5% auto;
 }
 
-.img-container 
-h2,
+.img-container h2,
 #img-info {
   color: #fff;
   font-weight: 700;
@@ -396,17 +378,19 @@ h2,
 .two {
   background-image: url("./img/young-couple.jpg");
 }
+
 /* About main Styles Ends Here */
+
 /* Main Section Styles Starts Here */
+
 /* Footer Styles Starts Here */
 .footer-container {
   width: 100%;
   height: auto;
-  background-color: #272A31;
+  background-color: #272a31;
 }
 
-.footer-container
-h2 {
+.footer-container h2 {
   color: #fff;
   text-align: center;
   padding-top: 5%;
@@ -428,15 +412,14 @@ h2 {
   padding: 5%;
 }
 
-.copywrite
-img {
+.copywrite img {
   width: 30%;
   height: 30%;
 }
 
-.copywrite
-p {
+.copywrite p {
   text-align: center;
   width: 50%;
 }
+
 /* Footer Styles Ends Here */
