@@ -1,22 +1,80 @@
 @media only screen and (min-width: 768px) {
   /* NavBar Styles Starts Here */
+   .hamburger {
+    display: none;
+  }
+
+  .ham-close {
+    display: none;
+  }
+  
+  #navbar {
+    visibility: visible;
+    position: relative;
+    display: block;
+    background-color: #fff;
+    height: auto;
+  }
+
+  #navbar
   .top-nav {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
+    justify-content: flex-end;
     gap: 2%;
     width: 100%;
-    height: auto;
-    padding-right: 20%;
+    border: none;
+    padding: 1% 10%;
+    margin: 0;
     background-color: #272a31;
   }
 
-  .top-nav li {
+  #navbar
+  .top-nav
+  li
+  a {
     color: #fff;
   }
 
-  img {
+  #navbar
+  .down-bar {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 10%;
+    margin: 0;
     background-color: #fff;
+  }
+
+  #navbar
+  .down-bar
+  li {
+    padding: 0;
+    border: none;
+    height: auto;
+  }
+
+  #navbar
+  .down-bar
+  li
+  a {
+    color: #272a31;
+    font-size: 1.1em;
+    font-weight: 400;
+  }
+  
+  #navbar
+  .down-bar
+  .special {
+    border: 5px solid #ec5242;
+    padding: 1%;
+  }
+
+  #navbar
+  .logo {
+    display: block;
+    width: 40%;
+    height: auto;
+    padding: 2%;
   }
 
   /* NavBar Styles Ends Here */

@@ -21,6 +21,10 @@ header {
   height: auto;
 }
 
+.logo {
+  display: none;
+}
+
 .nav-links {
   visibility: hidden;
   position: fixed;
