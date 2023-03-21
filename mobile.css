@@ -391,6 +391,9 @@ hr {
 /* Main Section Styles Starts Here */
 
 /* Footer Styles Starts Here */
+footer {
+display: none;
+}
 .footer-container {
   width: 100%;
   height: auto;
