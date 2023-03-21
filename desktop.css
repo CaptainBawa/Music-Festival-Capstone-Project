@@ -175,4 +175,38 @@
     display: none;
   }
   /* Programs Styles Ends Here */
+  /* Featured Musicians Styles Starts Here */
+  #all-musicians
+  .hidden {
+    display: flex;
+  }
+
+  #all-musicians
+  .more {
+    display: none;
+  }
+
+  #all-musicians
+  h2 {
+    padding-top: 5%;
+  }
+
+  .musicians-sub-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 369px);
+    justify-content: center;
+    width: 77%;
+    height: auto;
+    margin: 3% auto;
+    border: 2px solid red;
+  } 
+ 
+  #all-musicians
+  .musicians-sub-container
+  img {
+    width: 50%;
+    height: auto;
+  }
+  
+  /* Featured Musicians Styles Ends Here */
 }
