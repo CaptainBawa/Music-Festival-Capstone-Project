@@ -120,4 +120,59 @@
     font-weight: 900;
   }
   /* Hero Styles Ends Here */
+  /* Programs Styles Starts Here */
+  #programs
+  h2 {
+    padding: 5% 2% 2% 0;
+  }
+  .all-programs {
+    display: flex;
+    gap: 1%;
+    padding: 5% 9%;
+  }
+  
+  .all-programs
+  .program {
+    flex-direction: column;
+    width: 30vw;
+    height: auto;
+    margin: 0;
+    text-align: center;
+    padding: 1%;
+  }
+
+  .all-programs
+  .program
+  img {
+    width: 40%;
+    height: auto;
+  }
+
+  .all-programs
+  .program
+  h3 {
+    font-size: 1.5em;
+  }
+
+  .all-programs
+  .program
+  p {
+    font-size: 1.1em;
+  }
+
+  #programs
+  .desktop-text {
+    display: block;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin: 0 auto;
+    width: 27vh;
+    border-bottom: 1px solid #fff;
+  }
+
+  .join {
+    display: none;
+  }
+  /* Programs Styles Ends Here */
 }
