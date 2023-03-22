@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="img/LinkedIn Cover Main.jpg" alt="logo" width="140"  height="auto" />
+  <img src="img/LinkedIn Cover Main.jpg" alt="logo" width="100%"  height="auto" />
   <br/>
 
 </div>
