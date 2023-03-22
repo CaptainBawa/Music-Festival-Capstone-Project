@@ -113,12 +113,12 @@ li {
   padding: 5%;
 }
 
-.hero-container h6 {
+.hero-container div {
   font-size: 1.25em;
   font-weight: 500;
 }
 
-.hero-container h6,
+.hero-container div,
 h1 {
   color: #ec5242;
 }
@@ -150,6 +150,7 @@ h2 {
 .venue {
   font-size: 1.25em;
   font-weight: 300;
+  color: #595959;
 }
 
 /* NavBar and Hero Styles Ends Here */
@@ -272,7 +273,7 @@ hr {
 }
 
 .profile-sub-header {
-  color: #ec5242;
+  color: #A72011;
   font-size: 1.1em;
   font-weight: 600;
 }
