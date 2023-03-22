@@ -185,7 +185,7 @@ hr {
   display: flex;
   gap: 8px;
   align-items: center;
-  border: 3px solid #373a41;
+  background-color: #ffffff17;
   width: 95%;
   height: 10%;
   margin: 0 auto 3% auto;
@@ -281,6 +281,7 @@ hr {
 .profile-container p {
   font-size: 1.1em;
   font-weight: 600;
+  width: 18vw;
 }
 
 .hidden {

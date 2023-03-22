@@ -97,7 +97,7 @@
     width: 40%;
     height: auto;
     position: absolute;
-    right: 0;
+    right: 4%;
   }
 
   #hero
@@ -137,7 +137,7 @@
   .all-programs {
     display: flex;
     gap: 1%;
-    padding: 5% 9%;
+    padding: 5% 5%;
   }
   
   .all-programs
@@ -148,6 +148,7 @@
     margin: 0;
     text-align: center;
     padding: 1%;
+    background-color: #ffffff17;
   }
 
   .all-programs
@@ -204,9 +205,10 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, 369px);
     justify-content: center;
-    width: 76%;
+    column-gap: 12%;
+    width: 90%;
     height: auto;
-    margin: 3% auto;
+    padding: 5% 0;
   } 
  
   #all-musicians
@@ -341,7 +343,7 @@
  
   #all-musicians
   img:hover {
-    transform: scale(2, 3);
+    transform: scale(2, 2);
    }
 
    #navbar
@@ -352,6 +354,12 @@
    #programs
    img:hover {
     transform: skew(20deg, 10deg);
+   }
+
+   #programs
+   .program:hover {
+    border: 1px solid #fff;
+    transform: scale(1.2);
    }
   /* Hover And Animation Styles Ends Here */
 }
