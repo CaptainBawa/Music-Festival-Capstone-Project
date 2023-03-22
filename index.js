@@ -43,7 +43,7 @@ closeList();
 // Mobile Hamburger Ends Here.
 // Dynamic Featured Musicians Starts Here.
 
-// Selecting the musicians-sub-container element from the DOM.
+// Selecting the musicians-sub-container element from the DOM. */
 const musicians = document.querySelector('.musicians-sub-container');
 
 // An array of objects.
