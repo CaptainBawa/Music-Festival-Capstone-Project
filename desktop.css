@@ -93,6 +93,14 @@
   }
 
   #hero
+  img {
+    width: 40%;
+    height: auto;
+    position: absolute;
+    right: 0;
+  }
+
+  #hero
   h6 {
     font-size: 2em;
     font-weight: 100;
@@ -257,6 +265,46 @@
   #about-email {
     margin-top: 0.1%;
     text-decoration: underline;
+  }
+
+  #about-main
+  h2 {
+    font-size: 3em;
+    font-weight: 500;
+    padding: 6%;
+  }
+
+  #about-main
+  .logo-container {
+    width: 60%;
+    height: auto;
+    margin: 2% auto;
+  }
+
+  #about-main
+  .logo-container
+  img {
+    width: 40%;
+    height: auto;
+  }
+
+  #about-main
+  .see {
+    padding: 2%;
+  }
+
+  .flex-about-imgs {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 5%;
+  }
+
+  .flex-about-imgs
+  .img-container {
+    width: 35%;
+    height: 50vh;
+    margin: 0;
   }
   /* About Styles Ends Here */
 }
