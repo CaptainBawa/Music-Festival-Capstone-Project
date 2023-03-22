@@ -121,6 +121,9 @@ li {
 .hero-container div,
 h1 {
   color: #ec5242;
+  background: linear-gradient(to right, #ec5242 20%, #272a31 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .hero-container h1 {
@@ -273,7 +276,7 @@ hr {
 }
 
 .profile-sub-header {
-  color: #A72011;
+  color: #a72011;
   font-size: 1.1em;
   font-weight: 600;
 }
@@ -394,8 +397,9 @@ hr {
 
 /* Footer Styles Starts Here */
 footer {
-display: none;
+  display: none;
 }
+
 .footer-container {
   width: 100%;
   height: auto;
