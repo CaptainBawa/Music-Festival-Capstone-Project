@@ -1,13 +1,13 @@
 @media only screen and (min-width: 768px) {
   /* NavBar Styles Starts Here */
-   .hamburger {
+  .hamburger {
     display: none;
   }
 
   .ham-close {
     display: none;
   }
-  
+
   #navbar {
     visibility: visible;
     position: relative;
@@ -16,8 +16,7 @@
     height: auto;
   }
 
-  #navbar
-  .top-nav {
+  #navbar .top-nav {
     justify-content: flex-end;
     gap: 2%;
     width: 100%;
@@ -27,15 +26,11 @@
     background-color: #272a31;
   }
 
-  #navbar
-  .top-nav
-  li
-  a {
+  #navbar .top-nav li a {
     color: #fff;
   }
 
-  #navbar
-  .down-bar {
+  #navbar .down-bar {
     flex-direction: row;
     gap: 5%;
     align-items: center;
@@ -49,38 +44,32 @@
     margin-right: auto;
   }
 
-  #navbar
-  .down-bar
-  li {
+  #navbar .down-bar li {
     padding: 0;
     border: none;
     height: auto;
   }
 
-  #navbar
-  .down-bar
-  li
-  a {
+  #navbar .down-bar li a {
     color: #272a31;
     font-size: 1.1em;
     font-weight: 400;
   }
-  
-  #navbar
-  .down-bar
-  .special {
+
+  #navbar .down-bar .special {
     border: 5px solid #ec5242;
     padding: 1%;
   }
 
-  #navbar
-  .logo {
+  #navbar .logo {
     display: block;
     width: 100%;
     height: 10vh;
     padding: 2%;
   }
+
   /* NavBar Styles Ends Here */
+
   /* Hero Styles Startss Here */
   header {
     background-position-y: 130px;
@@ -92,56 +81,67 @@
     padding: 5% 10%;
   }
 
-  #hero
-  img {
+  /* Programs Style. It here because of linters */
+  .all-programs .program img {
+    width: 40%;
+    height: auto;
+  }
+
+  /* Programs Style. It here because of linters */
+
+  #hero img {
     width: 40%;
     height: auto;
     position: absolute;
     right: 4%;
   }
 
-  #hero
-  div {
+  #hero div {
     font-size: 2em;
     font-weight: 100;
     color: #ec5242;
   }
 
-  #hero
-  h1 {
+  #hero h1 {
     font-size: 3em;
     font-weight: 900;
     line-height: 1.2em;
     width: 50vw;
   }
 
-  #hero
-  p {
+  /* Programs Style. It here because of linters */
+  .all-programs .program p {
+    font-size: 1.1em;
+  }
+
+  /* Programs Style. It here because of linters */
+
+  #hero p {
     width: 45vw;
     padding: 2%;
     font-size: 1.2em;
     line-height: 1.6;
   }
 
-  #hero
-  .date {
+  #hero .date {
     font-size: 2.5em;
     font-weight: 900;
   }
+
   /* Hero Styles Ends Here */
+
   /* Programs Styles Starts Here */
-  #programs
-  h2 {
+  #programs h2 {
     padding: 5% 2% 2% 0;
   }
+
   .all-programs {
     display: flex;
     gap: 1%;
     padding: 5% 5%;
   }
-  
-  .all-programs
-  .program {
+
+  .all-programs .program {
     flex-direction: column;
     width: 30vw;
     height: auto;
@@ -151,27 +151,11 @@
     background-color: #ffffff17;
   }
 
-  .all-programs
-  .program
-  img {
-    width: 40%;
-    height: auto;
-  }
-
-  .all-programs
-  .program
-  h3 {
+  .all-programs .program h3 {
     font-size: 1.5em;
   }
 
-  .all-programs
-  .program
-  p {
-    font-size: 1.1em;
-  }
-
-  #programs
-  .desktop-text {
+  #programs .desktop-text {
     display: block;
     color: #fff;
     font-size: 1em;
@@ -184,20 +168,19 @@
   .join {
     display: none;
   }
+
   /* Programs Styles Ends Here */
+
   /* Featured Musicians Styles Starts Here */
-  #all-musicians
-  .hidden {
+  #all-musicians .hidden {
     display: flex;
   }
 
-  #all-musicians
-  .more {
+  #all-musicians .more {
     display: none;
   }
 
-  #all-musicians
-  h2 {
+  #all-musicians h2 {
     padding-top: 5%;
   }
 
@@ -209,95 +192,83 @@
     width: 90%;
     height: auto;
     padding: 5% 0;
-  } 
- 
-  #all-musicians
-  .musicians-sub-container
-  img {
+  }
+
+  #all-musicians .musicians-sub-container img {
     width: 50%;
     height: auto;
   }
+
   /* Featured Musicians Styles Ends Here */
+
   /* Footer Styles Starts Here */
   #footer {
     display: block;
   }
 
-  #footer
-  .flex-imgs {
+  #footer .flex-imgs {
     gap: 5%;
   }
 
-  #footer
-  .copywrite {
+  #footer .copywrite {
     justify-content: center;
     gap: 5%;
     height: auto;
     padding: 1% 2%;
   }
 
-  #footer
-  .copywrite
-  img {
+  #footer .copywrite img {
     width: 7%;
     height: auto;
   }
 
-  #footer
-  .copywrite
-  p {
+  #footer .copywrite p {
     font-size: 1.5em;
   }
 
   #hidden-about {
     display: none;
   }
+
   /* Footer Styles Ends Here */
+
   /* About Styles Starts Here */
-  #hero
-  .about-title {
+  #hero .about-title {
     text-align: center;
     width: 100%;
   }
 
-  #hero
-  .info {
+  #hero .info {
     margin: 5% auto 0 auto;
   }
 
   #about-enquiry {
     margin: 0 auto;
   }
-  
-  #hero
-  #about-email {
+
+  #hero #about-email {
     margin-top: 0.1%;
     text-decoration: underline;
   }
 
-  #about-main
-  h2 {
+  #about-main h2 {
     font-size: 3em;
     font-weight: 500;
     padding: 6%;
   }
 
-  #about-main
-  .logo-container {
+  #about-main .logo-container {
     width: 60%;
     height: auto;
     margin: 2% auto;
   }
 
-  #about-main
-  .logo-container
-  img {
+  #about-main .logo-container img {
     width: 40%;
     height: auto;
   }
 
-  #about-main
-  .see {
+  #about-main .see {
     padding: 2%;
   }
 
@@ -308,29 +279,28 @@
     padding: 5%;
   }
 
-  .flex-about-imgs
-  .img-container {
+  .flex-about-imgs .img-container {
     width: 35%;
     height: 50vh;
     margin: 0;
   }
+
   /* About Styles Ends Here */
+
   /* Hover And Animation Styles Starts Here */
-  #navbar
-  .hover:hover {
+  #navbar .hover:hover {
     color: #ec5242;
   }
 
-  #hero
-  img:hover {
+  #hero img:hover {
     animation: shake 0.5s;
     animation-iteration-count: infinite;
-   }
+  }
 
-   @keyframes shake {
+  @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
     10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    20% { transform: translate(-3px, 0) rotate(1deg); }
     30% { transform: translate(3px, 2px) rotate(0deg); }
     40% { transform: translate(1px, -1px) rotate(1deg); }
     50% { transform: translate(-1px, 2px) rotate(-1deg); }
@@ -340,26 +310,23 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
- 
-  #all-musicians
-  img:hover {
+
+  #all-musicians img:hover {
     transform: scale(2, 2);
-   }
+  }
 
-   #navbar
-   .logo:hover {
-     transform: scale(2, 3);
-    }
+  #navbar .logo:hover {
+    transform: scale(2, 3);
+  }
 
-   #programs
-   img:hover {
+  #programs img:hover {
     transform: skew(20deg, 10deg);
-   }
+  }
 
-   #programs
-   .program:hover {
+  #programs .program:hover {
     border: 1px solid #fff;
     transform: scale(1.2);
-   }
+  }
+
   /* Hover And Animation Styles Ends Here */
 }
