@@ -183,12 +183,13 @@
   #all-musicians h2 {
     padding-top: 5%;
   }
-
+  
+  #all-musicians
   .musicians-sub-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 369px);
     justify-content: center;
-    column-gap: 12%;
+    column-gap: 18%;
     width: 90%;
     height: auto;
     padding: 5% 0;
@@ -197,6 +198,14 @@
   #all-musicians .musicians-sub-container img {
     width: 50%;
     height: auto;
+  }
+
+  #all-musicians .profile-container {
+    height: auto;
+  }
+
+  #all-musicians .profile-container p {
+    width: 18vw;
   }
 
   /* Featured Musicians Styles Ends Here */

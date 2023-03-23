@@ -234,6 +234,11 @@ hr {
 }
 
 /* Featured Musicians Styles Starts Here */
+.musicians-sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
 .musicians-container h2 {
   color: rgb(0, 0, 0);
   text-align: center;
@@ -260,6 +265,7 @@ hr {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  height: 240px;
 }
 
 .profile-container h3 {
@@ -284,7 +290,7 @@ hr {
 .profile-container p {
   font-size: 1.1em;
   font-weight: 600;
-  width: 18vw;
+  width: 100%;
 }
 
 .hidden {
@@ -295,7 +301,7 @@ hr {
   border: 2px solid #7e7e7e;
   width: 95%;
   height: 30%;
-  margin: 0 auto;
+  margin: 20% auto 5% auto;
   padding: 5%;
 }
 
