@@ -214,6 +214,10 @@
     display: block;
   }
 
+  #hide {
+    display: none;
+  }
+
   #footer .flex-imgs {
     gap: 5%;
   }
@@ -232,10 +236,12 @@
 
   #footer .copywrite p {
     font-size: 1.5em;
+    color: #fff;
   }
 
   #hidden-about {
-    display: none;
+    display: flex;
+    background-color: #272a31;
   }
 
   /* Footer Styles Ends Here */

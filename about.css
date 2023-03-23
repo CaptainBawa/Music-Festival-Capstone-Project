@@ -5,3 +5,7 @@
 #hero div {
   display: none;
 }
+
+.footer-container {
+  display: block;
+}
