@@ -241,6 +241,11 @@
   /* Footer Styles Ends Here */
 
   /* About Styles Starts Here */
+
+  #hero div {
+    display: none;
+  }
+
   #hero .about-title {
     text-align: center;
     width: 100%;
