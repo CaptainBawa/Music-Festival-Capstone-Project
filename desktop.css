@@ -183,9 +183,8 @@
   #all-musicians h2 {
     padding-top: 5%;
   }
-  
-  #all-musicians
-  .musicians-sub-container {
+
+  #all-musicians .musicians-sub-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, 369px);
     justify-content: center;
