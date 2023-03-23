@@ -1,3 +1,7 @@
 #footer {
-    display: block;
-  }
+  display: block;
+}
+
+#hero div {
+  display: none;
+}
