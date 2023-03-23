@@ -63,7 +63,7 @@
 
 - [Live Demo Link](https://captainbawa.github.io/Music-Festival-Capstone-Project/)
 
-- [Project Video Walkthrough](https://google.com)
+- [Project Video Walkthrough](https://www.loom.com/share/9eae5fc86af046b8b529ef7eb3b1dfcf)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
