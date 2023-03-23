@@ -156,6 +156,8 @@ I'm excited to be working on this project and I would be grateful for your suppo
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+I would like to give credit to https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 for the original design.
+
 I extend my heartfelt gratitude to the Microverse team and my coding partners for their invaluable inspiration and contributions towards the success of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
