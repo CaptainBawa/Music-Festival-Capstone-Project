@@ -46,7 +46,7 @@ header {
   border: 2px solid #fff;
   width: 95%;
   height: auto;
-  margin: 0 auto;
+  margin: -5% auto;
   padding: 2%;
 }
 
@@ -63,7 +63,7 @@ a {
 .down-bar {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 24px;
   width: 100%;
   height: auto;
   margin-top: -12%;
