@@ -1,7 +1,7 @@
 @media only screen and (min-width: 768px) {
   /* NavBar Styles Starts Here */
   .hamburger {
-    display: none;
+    display: none !important;
   }
 
   .ham-close {
@@ -9,7 +9,7 @@
   }
 
   #navbar {
-    visibility: visible;
+    visibility: visible !important;
     position: relative;
     display: block;
     background-color: #fff;
