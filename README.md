@@ -53,9 +53,9 @@
 
 ### Key Features <a name="key-features"></a>
 
-- **[Responsive]**
-- **[100_Percent_Accessibilty_Ratio]**
-- **[Animation_And_Transition_Effect]**
+- **Responsive**
+- **100% Accessibility Ratio**
+- **Animation Effect**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,16 +75,17 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-``` 
-    1. Git installed on your machine.
-    2. Any code editor [vscode preferred].
-    3. Any browser [chrome preferred].
+```sh
+  git version 2.38.x
+  node.js version > 12.x
+  IDE
+  Browser (chrome, firefox, edge, safari)
 ```
 ### Setup
 
 Clone this repository to your desired folder:
 
-```
+```sh
   cd my-folder
   git clone git@github.com:CaptainBawa/Music-Festival-Capstone-Project.git
 ```
@@ -92,7 +93,8 @@ Clone this repository to your desired folder:
 
 Install this project with:
 
-```
+```sh
+  cd Music-Festival-Capstone-Project
   nmp install/npm i
 ```
 
@@ -100,17 +102,16 @@ Install this project with:
 
 To run the project, execute the following command:
 
-```
-  Open With Live Server
+```sh
+  Live Server
 ```
 
 ### Deployment
 
 You can deploy this project using:
 
-```
-   github pages
-
+```sh
+  github pages
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,20 +122,17 @@ You can deploy this project using:
 
 - GitHub: [@githubhandle](https://github.com/CaptainBawa)
 - Twitter: [@twitterhandle](https://twitter.com/BawaCollins)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/captainbawa)
+- LinkedIn: [@captainbawa](https://linkedin.com/in/captainbawa)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-
-- [1] **[Add_More_Content]**
-- [2] **[Add_Ticket_Page]**
-- [3] **[Add_Registration_Page]**
+- [ ] **Add Content**
+- [ ] **Add Ticket Page**
+- [ ] **Add Registration Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -144,7 +142,6 @@ Feel free to check the [issues page](https://github.com/CaptainBawa/Music-Festiv
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## ⭐️ Show your support <a name="support"></a>
 
 Dear Viewers!
@@ -153,7 +150,6 @@ I'm excited to be working on this project and I would be grateful for your suppo
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to give credit to https://www.behance.net/gallery/29845175/CC-Global-Summit-2015 for the original design.
@@ -161,7 +157,6 @@ I would like to give credit to https://www.behance.net/gallery/29845175/CC-Globa
 I extend my heartfelt gratitude to the Microverse team and my coding partners for their invaluable inspiration and contributions towards the success of this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 ## 📝 License <a name="license"></a>
 
