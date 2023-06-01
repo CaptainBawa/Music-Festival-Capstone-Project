@@ -32,6 +32,9 @@
 
 **[GLOBAL MUSIC FESTIVAL]** represents a celebration of cultural unity among humanity through the universal language of music. This festival serves as the culminating project of the first module in the Microverse Full-Stack Software Development Curriculum. Utilizing all of the knowledge and skills acquired since the first week of the program, I was able to successfully implement this project.
 
+![mobile screenshot](img/Mobile.png)
+
+
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
